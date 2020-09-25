@@ -1,0 +1,24 @@
+{
+  "name": "eslint-config-bytelion",
+  "version": "0.1.0",
+  "description": "Bytelion's official Javascript standards",
+  "main": "index.js",
+  "license": "MIT",
+  "private": false,
+  "scripts": {
+    "lint": "eslint . --ext js --no-ignore --fix",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "devDependencies": {
+    "eslint": "7.9.0",
+    "eslint-config-airbnb": "18.2.0",
+    "eslint-plugin-import": "^2.21.2",
+    "eslint-plugin-jsx-a11y": "^6.3.0",
+    "eslint-plugin-no-secrets": "^0.6.8",
+    "eslint-plugin-react": "^7.20.5",
+    "eslint-plugin-react-hooks": "4.1.2",
+    "eslint-plugin-security": "^1.4.0",
+    "eslint-plugin-simple-import-sort": "^5.0.3",
+    "eslint-plugin-sort-destructure-keys": "^1.3.5"
+  }
+}
